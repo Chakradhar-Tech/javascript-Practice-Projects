@@ -42,6 +42,7 @@ function render(item){
        data = data.filter(item=>item !== delItem);  // updating the array with the filtered new array.
         localStorage.setItem("listData", JSON.stringify(data));
     }
+// Adding the todo
 
 formEl.on("submit",function(e){
     e.preventDefault();
@@ -95,6 +96,8 @@ todoListEl.on("click", ".delete-el", (e) =>{
     }
 });
 
+// To edit a todo
+
     todoListEl.on("click", ".edit-el",function(){
       const updateField = $(this).closest("div");
       updateField.next().removeClass("d-none");
@@ -104,7 +107,6 @@ todoListEl.on("click", ".delete-el", (e) =>{
          inputField.val(currentValue);
 
          });
-         
 
           todoListEl.on("click",".update-btn",function(e){
             e.preventDefault();
