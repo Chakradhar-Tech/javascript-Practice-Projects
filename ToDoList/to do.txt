@@ -1,0 +1,50 @@
+📘 Beginner Level Projects
+Form Validator
+👉 Validate form fields (e.g., email, password) with live error messages using input events and regex.
+
+To-Do List App
+👉 Add, delete, and toggle tasks as completed. Store tasks in memory or localStorage.
+
+Counter App
+👉 Simple UI with "+" and "−" buttons and a reset option. Practice onclick and DOM updates.
+
+Tip Calculator
+👉 Enter bill amount and tip %, show final tip and total. Great for handling form input and calculations.
+
+Digital Clock
+👉 Display live digital time using setInterval() and Date object.
+
+
+
+
+📙 Intermediate Level Projects
+Weather App (with API)
+👉 Use fetch() with OpenWeatherMap API to show weather by city name.
+
+Search Filter
+👉 Real-time filtering (e.g., list of items/products) as the user types in an input box.
+
+Image Slider / Carousel
+👉 Next/previous buttons and auto-scroll between images with setInterval().
+
+Job Listings with Pagination ✅
+👉 (Already completed by you!) Fetch paginated jobs and update UI with Prev/Next buttons.
+
+Form Submit with fetch() + Laravel ✅
+👉 (Also done by you!) AJAX form with validation errors shown dynamically.
+
+🧠 Practice Challenges
+Quiz App
+👉 Show multiple-choice questions. Track score. Show final result and maybe allow restart.
+
+Expense Tracker
+👉 Add income/expense entries, show totals and history. Store data in localStorage.
+
+Typing Speed Test
+👉 Show a random sentence, measure how fast the user types it, calculate words per minute.
+
+Keyboard Event Tracker
+👉 Show key pressed and its event.code/event.key in real time.
+
+Theme Toggle (Dark/Light)
+👉 Switch themes with a toggle. Save preference in localStorage.

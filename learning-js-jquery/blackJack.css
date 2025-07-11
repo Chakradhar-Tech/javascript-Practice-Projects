@@ -1,0 +1,53 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+div{
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(23, 92, 23);
+    width: 30pc;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 5pc;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(236, 179, 33);
+    font-weight: 700;
+}
+#card-el, #sum-el{
+    text-align: left !important;
+    padding-left: 30%;
+    color: rgb(255, 254, 254);
+    font-weight: 700;
+    width: 100%;
+}
+#player-el{
+    text-align: center !important;
+    color: rgb(255, 254, 254);
+    font-weight: 700;
+    width: 100%;
+}
+#message-el{
+    text-align: center ; 
+    font-style: italic;
+    font-weight:500;
+    font-size: large;
+    color: rgb(255, 254, 254);
+
+}
+button {
+    color: #016f32;
+    font-weight:bolder;
+    font-size: 20px;
+    width: 180px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 3px;
+    display: block; 
+    margin: 10px auto !important;
+}

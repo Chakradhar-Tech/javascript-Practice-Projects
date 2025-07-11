@@ -1,0 +1,12 @@
+ #hide{
+    display: none;
+    /* to hide the display , can do this in js but when the page loads the block will be
+    visible for a millisecond so we are using this so the block is hidded before the js rubs. */
+}
+
+
+div p img{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 5px;
+}

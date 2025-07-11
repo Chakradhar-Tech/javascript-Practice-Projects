@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation using Js</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+</head>
+<body>
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="border border-dark rounded bg-light p-4">
+            <form id="form-el">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-control">
+                <p id="name-error" class="text-secondary">*The name should have <b>5-12</b> characters.*</p>
+
+                <label for="email" class="form-label">Email</label>
+                <input type="text" id="email" class="form-control">
+                <p id="email-error" class="text-secondary">*use the <b>@</b> and <b>.com</b> correctly.*</p>
+
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" class="form-control">
+                <p id="password-error" class="text-secondary">*The password should be <b>8 to 20</b>.*</p>
+
+                <label for="number" class="form-label">Telephone.Number</label>
+                <input type="text" id="number" class="form-control">
+                <p id="num-error" class="text-secondary">*The number should <b>atleast be 11</b> characters.*</p>
+
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+</div>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="formvalidation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html> 
